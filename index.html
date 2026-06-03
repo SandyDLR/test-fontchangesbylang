@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Transifex Live Language Style Demo</title>
+
+  <script>
+    window.liveSettings = {
+      api_key: "YOUR_TRANSIFEX_LIVE_API_KEY"
+    };
+  </script>
+  <script src="//cdn.transifex.com/live.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="demo-card">
+    <h1 class="foo">
+      Welcome to our global product experience.
+    </h1>
+
+    <p class="description">
+      This demo changes the headline color and font size based on the selected language.
+      Transifex Live updates the HTML language attribute, and CSS reacts to it.
+    </p>
+  </main>
+</body>
+</html>
